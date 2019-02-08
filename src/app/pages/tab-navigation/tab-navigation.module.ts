@@ -6,6 +6,11 @@ import { Routes, RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 
 import { TabNavigationPage } from './tab-navigation.page';
+import { HomePageModule } from '../home/home.module';
+import { MoviesPageModule } from '../movies/movies.module';
+import { FavoritesPageModule } from '../favorites/favorites.module';
+import { ProfilePageModule } from '../profile/profile.module';
+
 
 const routes: Routes = [
   {
@@ -19,6 +24,10 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
+    HomePageModule,
+    MoviesPageModule,
+    FavoritesPageModule,
+    ProfilePageModule,
     RouterModule.forChild(routes)
   ],
   declarations: [TabNavigationPage]
