@@ -9,7 +9,7 @@ import { ActivatedRoute } from "@angular/router";
 })
 export class MovieDetailsPage implements OnInit {
 
-  information: Object = null;
+  information: any = null;
 
   /**
   * @param activatedRoute Information about the route we are on
