@@ -9,25 +9,28 @@ const routes: Routes = [
   },
   {
     path: 'home',
-    loadChildren: './home/home.module#HomePageModule'
+    loadChildren: './pages/home/home.module#HomePageModule'
   },
   {
-    path: 'movies',
+    path: 'search',
     loadChildren: './pages/movies/movies.module#MoviesPageModule'
   },
   {
-    path: 'movies/:id',
+    path: 'search/:id',
     loadChildren: './pages/movie-details/movie-details.module#MovieDetailsPageModule'
   },
   {
     path: 'favorites',
-    loadChildren: './favorites/favorites.module#FavoritesPageModule'
+    loadChildren: './pages/favorites/favorites.module#FavoritesPageModule'
   },
   {
     path: 'profile',
-    loadChildren: './profile/profile.module#ProfilePageModule'
+    loadChildren: './pages/profile/profile.module#ProfilePageModule'
   },
-  { path: 'tab-navigation', loadChildren: './tab-navigation/tab-navigation.module#TabNavigationPageModule' },
+  {
+    path: 'tab-navigation',
+    loadChildren: './pages/tab-navigation/tab-navigation.module#TabNavigationPageModule'
+  },
 ];
 
 @NgModule({
