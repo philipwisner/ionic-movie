@@ -17,8 +17,13 @@
     </ion-select>
   </ion-item>
 
+  <div  *ngIf="loading" class="flex">
+    <ion-spinner color="primary"></ion-spinner>
+  </div>
+
+
   <ion-list>
-    <ion-item button *ngFor="let item of (results | async)" [routerLink]="['/', 'movies', item.imdbID]">
+    <ion-item button *ngFor="let item of results" [routerLink]="['/', 'movies', item.imdbID]">
       <ion-avatar slot="start">
         <img [src]="item.Poster" *ngIf="item.Poster != 'N/A'">
       </ion-avatar>
