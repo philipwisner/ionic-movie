@@ -27,6 +27,7 @@ const routes: Routes = [
     path: 'profile',
     loadChildren: './profile/profile.module#ProfilePageModule'
   },
+  { path: 'tab-navigation', loadChildren: './tab-navigation/tab-navigation.module#TabNavigationPageModule' },
 ];
 
 @NgModule({
