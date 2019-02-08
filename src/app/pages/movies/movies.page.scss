@@ -1,0 +1,11 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 150px);
+}
+
+ion-spinner {
+  align-self: center;
+}
+
