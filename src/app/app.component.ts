@@ -13,22 +13,22 @@ export class AppComponent implements OnInit {
   appPages = [
     {
       title: 'Home',
-      url: '/home',
+      url: '/tabs/home',
       icon: 'home'
     },
     {
       title: 'Search',
-      url: '/search',
+      url: '/tabs/search',
       icon: 'search'
     },
     {
       title: 'Favorites',
-      url: '/favorites',
+      url: '/tabs/favorites',
       icon: 'favorite'
     },
     {
       title: 'Profile',
-      url: '/profile',
+      url: '/tabs/profile',
       icon: 'person'
     }
   ];

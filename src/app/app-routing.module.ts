@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: '/tabs',
     pathMatch: 'full'
   },
   {
@@ -28,7 +28,7 @@ const routes: Routes = [
     loadChildren: './pages/profile/profile.module#ProfilePageModule'
   },
   {
-    path: 'tab-navigation',
+    path: 'tabs',
     loadChildren: './pages/tab-navigation/tab-navigation.module#TabNavigationPageModule'
   },
 ];
