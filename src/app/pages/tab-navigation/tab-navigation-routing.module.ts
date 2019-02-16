@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { TabNavigationPage } from './tab-navigation.page';
 import { HomePage } from '../home/home.page';
 
+//fix so tabs show all the time
+
 const routes: Routes = [
   {
     path: 'tabs',
