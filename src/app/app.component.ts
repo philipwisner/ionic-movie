@@ -3,6 +3,7 @@ import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { Platform } from '@ionic/angular';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 
+//app pages are set to /tabs/home but not reflected
 
 @Component({
   selector: 'app-root',
