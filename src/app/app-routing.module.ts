@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+//default is still goging to home instead of tabs which should redirect to home
+
 const routes: Routes = [
   {
     path: '',
