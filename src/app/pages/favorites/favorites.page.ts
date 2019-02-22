@@ -12,4 +12,5 @@ export class FavoritesPage implements OnInit {
   ngOnInit() {
   }
 // Need to add backend to save id of movie
+//add function to sort saved items by type/date
 }
