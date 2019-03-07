@@ -13,5 +13,6 @@ export class ProfilePage implements OnInit {
   }
 
   //add signup/login/logout calls
+  //add profile pic option?
 
 }
